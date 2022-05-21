@@ -1,0 +1,12 @@
+#Ignore project-specific cache directory
+.classpath
+.settings
+.idea
+*.iml
+*.project
+*.class
+
+# Ignore build output directory
+build/
+bin/
+target/

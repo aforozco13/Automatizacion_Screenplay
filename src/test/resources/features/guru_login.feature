@@ -10,5 +10,5 @@ Feature: Iniciar sesion Guru
     Then Valida que el titulo sea <msg>
 
     Examples:
-      | url                          | user     | password | msg                   |
+      | url                          | user     | password | msg                  |
       | "http://demo.guru99.com/v4/" | "mgr123" | "mgr!23" | "Manger Id : mgr123" |
